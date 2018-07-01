@@ -4,12 +4,18 @@ nav .bold {
 
 header h1, header p {
   text-align: center;
-  color: white; }
+  color: white;
+  margin-bottom: 0%; }
 header p {
   font-size: 1.5em;
   margin-bottom: 5%; 
   padding: 5%;
 }
+
+h2{
+  margin-bottom: 0%;
+}
+
 
 .legoman {
   border-radius: 50%;
@@ -56,32 +62,23 @@ button {
 
 .margender {
   margin-right: 25%;
-  padding: 8%;
+  padding: 4%;
    }
 
 .margenizq {
   margin-left: 25%;
-  padding: 8%;
+  padding: 4%;
     }
 
-.estrella {
+.estrella_blanca{
   color: white;
   background-color: #18bc9c;
   }
 
-.rectangulo {
-  width: 100%;
-  height: 3px;
-  background: white;
-  color: white;
-}
-
-.rectangulo2 {
-  width: 100%;
-  height: 3px;
-  background: black;
+.estrella_negra{
   color: black;
-}
+  background-color: white;
+  }
 
 .alinear{
   display: inline-block;
@@ -112,5 +109,17 @@ footer {
 
 .txt_centrado {
   text-align: center; }
+
+
+  h3{
+  display: inline-block;
+  text-decoration-line: line-through;
+}
+
+
+.side-nav{
+  background-color: #2c3e50 !important;
+}
+
 
 /*# sourceMappingURL=style.css.map */
